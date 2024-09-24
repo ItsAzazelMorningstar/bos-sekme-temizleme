@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Boş Sekmeleri Kapat",
+    "version": "1.0",
+    "permissions": [
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon16.png"
+      }
+    }
+  }
+  
