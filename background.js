@@ -8,7 +8,7 @@ function closeEmptyTabs() {
       });
     });
   }
-  setInterval(closeEmptyTabs, 30000);
+  setInterval(closeEmptyTabs, 10000);
 
 chrome.action.onClicked.addListener(
     function () {
