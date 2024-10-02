@@ -21,3 +21,8 @@ chrome.action.onClicked.addListener(
       });
     }
   );
+  chrome.runtime.onStartup.addListener(() => {
+    console.log("Tarayıcı açıldı ve uzantı çalışıyor!");
+    setInterval(closeEmptyTabs, 10000);
+
+});
